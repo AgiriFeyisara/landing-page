@@ -1,0 +1,120 @@
+body {
+  margin-left: 130px;
+  margin-right: 130px;
+  font-family: lato;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.lock {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: black;
+}
+h1 {
+  font-size: 200px;
+  font-family: "arial", sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+.circle {
+  width: 280px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left: 25%;
+  margin-bottom: -60px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -290px;
+}
+.paragraph {
+  margin-bottom: -5%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "arial", sans-serif;
+  text-align: center;
+  gap: 30px;
+}
+
+.half-stadium {
+  width: 280px;
+  height: 200px;
+  background-color: rgb(224, 224, 82);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(180deg);
+  margin-top: -90px;
+  margin-left: 30px;
+}
+.inner-content {
+  position: absolute;
+  bottom: 3%;
+  left: 23%;
+  transform: translate(-80%, -50%);
+  color: black;
+}
+.h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.btn {
+  height: 38px;
+  width: 150px;
+  border-radius: 17px;
+  background-color: black;
+  color: #fff;
+}
+.half-stadiums {
+  width: 280px;
+  height: 200px;
+  background-color: rgb(224, 164, 184);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+.inner-contents {
+  position: absolute;
+  bottom: -1%;
+  right: 2%;
+  transform: translate(-80%, -50%);
+  color: black;
+}
+.footer-text {
+  text-align: center;
+  margin-top: -35px;
+}
